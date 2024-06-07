@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: rgb(237, 232, 232);
+}
+
+
+
+.img{
+    background-color: white;
+    height: 350px;
+    width: 520px;
+    display: flex;
+    position: relative;
+    gap: 20px;
+    left: 500px;
+    top: 200px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    
+
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.text h2{
+    width: 130px;
+    font-weight: bold;
+
+}
+
+.text p{
+    font-size: 12px;
+    width: 200px;
+    color: rgb(199, 184, 184);
+}
+
+.text h6{
+    
+    color: rgb(199, 184, 184);
+}
+.mark{
+    display: flex;
+    
+}
+
+.mark h2{
+    color: rgb(85, 125, 85);
+}
+.mark h6{
+    position: relative;
+    top: 8px;
+     
+}
+
+.h5{
+    background-color: rgb(85, 125, 85);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 8px;
+    color: rgb(223, 212, 212);
+    border-radius: 5px;
+
+ 
+}
+
